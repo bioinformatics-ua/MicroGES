@@ -7,7 +7,7 @@ This folder contains the additional files of the paper.
 # Folder data
 This folder contains the data obtained after the pre-processing.
 
-## Subfolder HF
+### Subfolder HF
 This subfolder contains the data of the usecase heart failure (HF):
 - hf_before_rem_batch: expressions obtained after the pre-processing;
 - hf_id: identification of the sequences through the GB accession number;
@@ -15,7 +15,7 @@ This subfolder contains the data of the usecase heart failure (HF):
 - hf_samples: identification of the samples;
 - hf_type: class of every sample (D: diseased or Z: control).
 
-## Subfolder ASD
+### Subfolder ASD
 This subfolder contains the data of the usecase autism spectrum disorder (ASD):
 - asd_before_rem_batch: expressions obtained after the pre-processing;
 - asd_id: identification of the sequences through the GB accession number;
