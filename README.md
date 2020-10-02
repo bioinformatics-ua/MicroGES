@@ -1,5 +1,5 @@
 # MethodologyMicro
-This repository contains the code used in the usecases presented in the paper "Methodology to identify gene expression signature by merging microarray datasets" by Olga Fajarda, Sara Duarte-Pereira, Raquel M. Silva and José Luís Oliveira.
+This repository contains the code used in the use cases presented in the paper "Methodology to identify gene expression signature by merging microarray datasets" by Olga Fajarda, Sara Duarte-Pereira, Raquel M. Silva and José Luís Oliveira.
 
 # Folder Additional Files
 This folder contains the additional files of the paper.
@@ -23,16 +23,15 @@ This subfolder contains the data of the usecase autism spectrum disorder (ASD):
 - asd_samples: identification of the samples;
 - asd_type: class of every sample (D: diseased or Z: control).
 
-# Folder script
+# Folder scripts
 This folder contains the scripts used:
 - batchRemoval_ComBat: remove the batch effect using ComBat;
 - batchRemoval_ratioa: remove the batch effect using ratioa;
 - featureSelection_limma: feature selection using limma package;
-- plot_mds_after: plot MDS using the expression after removing the batch effect;
-- plot_mds_before: plot MDS using the expression before removing the batch effect;
-- preprocessing_oligo: Affymetrix data pre-processing;
-- preprocessing_limma: Illumina data pre-processing
-- randomForest: Random Forest algorithm;
 - linearSvm: Linear SVM algorithm;
 - neuralNetwork: Neural Network algorithm.
+- plot_mds: plot MDS using the expression;
+- preprocessing_affymetrix: Affymetrix data pre-processing;
+- preprocessing_illumina: Illumina data pre-processing
+- randomForest: Random Forest algorithm; 
 
