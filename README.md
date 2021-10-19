@@ -26,7 +26,7 @@ This subfolder contains the data of the usecase autism spectrum disorder (ASD):
 # Folder scripts
 This folder contains the scripts used:
 - batchRemoval_ComBat: remove the batch effect using ComBat;
-- batchRemoval_ratioa: remove the batch effect using ratioa;
+- batchRemoval_fsva: remove the batch effect using fsva;
 - featureSelection_limma: feature selection using limma package;
 - linearSvm: Linear SVM algorithm;
 - neuralNetwork: Neural Network algorithm.
