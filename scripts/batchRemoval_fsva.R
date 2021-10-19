@@ -23,9 +23,20 @@ batchlabels<-gsub(batchnames[1],"1",batchlabels)
 batchlabels<-gsub(batchnames[2],"2",batchlabels)
 batchlabels<-gsub(batchnames[3],"3",batchlabels)
 
+# read the class of every sample (D: diseased or Z: control)
+tipo<-factor(scan(paste(name_datasets,"_type.txt",sep=""),what=character()))
+tipo2<-1:length(tipo)
+for(i in 1:length(tipo)){
+  if(tipo[i]=='D'){
+    tipo2[i]<-"1"
+  } else {
+    tipo2[i]<-"2"
+  }
+}
+tipo2<-factor(tipo2)
+
 # remove Batch
-ra<-ratioa(x=df,batch = factor(batchlabels))
+df2<-svaba(df,tipo2,batchlabels)
 
 # write data frame after removing batch to a text file
-write.table(t(ra$xadj), file=paste(name_datasets,"_after_rem_batch_ratioa.txt",sep=""), sep="\t",dec=".", row.names = FALSE, col.names = FALSE )
-
+write.table(t(df2$xadj), file=paste(name_datasets,"_after_rem_batch_fsva.txt",sep=""), sep="\t",dec=".", row.names = FALSE, col.names = FALSE )
