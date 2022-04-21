@@ -1,37 +1,40 @@
-# MethodologyMicro
-This repository contains the code used in the use cases presented in the paper "Methodology to identify gene expression signature by merging microarray datasets" by Olga Fajarda, Sara Duarte-Pereira, Raquel M. Silva and José Luís Oliveira.
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
-# Folder Additional Files
-This folder contains the additional files of the paper.
+<p align="center"><img src="docs/images/logo.png" alt="MicroGES" height="100" border="0" /></p>
 
-# Folder data
-This folder contains the data obtained after the pre-processing.
+<p align="center"><b>MicroGES</b></p>
 
-### Subfolder HF
-This subfolder contains the data of the usecase heart failure (HF):
-- hf_before_rem_batch: expressions obtained after the pre-processing;
-- hf_id: identification of the sequences through the GB accession number;
-- hf_platform: identification of the platform used to obtain the expressions;
-- hf_samples: identification of the samples;
-- hf_type: class of every sample (D: diseased or Z: control).
+A solution to identify a gene expression signature in microarray datasets
 
-### Subfolder ASD
-This subfolder contains the data of the usecase autism spectrum disorder (ASD):
-- asd_before_rem_batch: expressions obtained after the pre-processing;
-- asd_id: identification of the sequences through the GB accession number;
-- asd_platform: identification of the platform used to obtain the expressions;
-- asd_samples: identification of the samples;
-- asd_type: class of every sample (D: diseased or Z: control).
 
-# Folder scripts
-This folder contains the scripts used:
-- batchRemoval_ComBat: remove the batch effect using ComBat;
-- batchRemoval_fsva: remove the batch effect using fsva;
-- featureSelection_limma: feature selection using limma package;
-- linearSvm: Linear SVM algorithm;
-- neuralNetwork: Neural Network algorithm.
-- plot_mds: plot MDS using the expression;
-- preprocessing_affymetrix: Affymetrix data pre-processing;
-- preprocessing_illumina: Illumina data pre-processing
-- randomForest: Random Forest algorithm; 
+### Documentation
 
+More documentation about the system is available [here](https://github.com/bioinformatics-ua/MicroGES/wiki).
+
+### Team
+  * Olga Fajarda<sup id="a1">[1](#f1)</sup>
+  * Sara Duarte-Pereira<sup id="a1">[1](#f1)</sup><sup id="a2">[2](#f2)</sup>
+  * João R. Almeida<sup id="a1">[1](#f1)</sup><sup id="a4">[4](#f4)</sup>
+  * Raquel M. Silva<sup id="a3">[3](#f3)</sup>
+  * José L. Oliveira<sup id="a1">[1](#f1)</sup>
+
+1. <small id="f1"> Dept. Electronics, Telecommunications and Informatics (DETI / IEETA), University of Aveiro, Aveiro, Portugal </small> [↩](#a1)
+2. <small id="f2"> Dept.f Medical Science and iBiMED-Institute of Biomedicine, University of Aveiro, Aveiro, Portugal </small> [↩](#a2)
+3. <small id="f3"> Faculdade de Medicina Dentária, CIIS-Centro de Investigação Interdisciplinar em Saúde, Universidade Católica Portuguesa, Campus de Viseu, Viseu, Portugal </small> [↩](#a3)
+4. <small id="f4"> Dept. of Information and Communications Technologies, University of A Coruña, A Coruña, Spain </small> [↩](#a4)
+
+
+### Cite
+
+Please cite the following, if you use MicroGES in your work:
+
+```bib
+in progress...
+```
+
+### Issues
+Please let us know if there are any [issues](https://github.com/bioinformatics-ua/MicroGES/issues).
+
+### License
+MicroGES is under GPL-3.0 license. For more information, click
+[here](https://github.com/bioinformatics-ua/MicroGES/blob/master/LICENSE).
