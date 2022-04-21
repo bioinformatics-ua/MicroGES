@@ -2,7 +2,7 @@
 
 <p align="center"><img src="docs/images/logo.png" alt="MicroGES" height="150" border="0" /></p>
 
-A solution to identify a gene expression signature in microarray datasets
+<p align="center"><b>A solution to identify a gene expression signature in microarray datasets</b></p>
 
 
 ### Documentation
