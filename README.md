@@ -1,6 +1,6 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
-<p align="center"><img src="docs/images/logo.png" alt="MicroGES" height="100" border="0" /></p>
+<p align="center"><img src="docs/images/logo.png" alt="MicroGES" height="150" border="0" /></p>
 
 A solution to identify a gene expression signature in microarray datasets
 
