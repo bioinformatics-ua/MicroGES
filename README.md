@@ -2,8 +2,6 @@
 
 <p align="center"><img src="docs/images/logo.png" alt="MicroGES" height="100" border="0" /></p>
 
-<p align="center"><b>MicroGES</b></p>
-
 A solution to identify a gene expression signature in microarray datasets
 
 
