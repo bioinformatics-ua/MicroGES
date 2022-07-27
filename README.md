@@ -11,8 +11,8 @@ More documentation about the system is available [here](https://github.com/bioin
 
 ### Team
   * Olga Fajarda<sup id="a1">[1](#f1)</sup>
-  * Sara Duarte-Pereira<sup id="a1">[1](#f1)</sup><sup id="a2">[2](#f2)</sup>
-  * João R. Almeida<sup id="a1">[1](#f1)</sup><sup id="a4">[4](#f4)</sup>
+  * Sara Duarte-Pereira<sup id="a1">[1](#f1)</sup><sup id="a2">,[2](#f2)</sup>
+  * João R. Almeida<sup id="a1">[1](#f1)</sup><sup id="a4">,[4](#f4)</sup>
   * Raquel M. Silva<sup id="a3">[3](#f3)</sup>
   * José L. Oliveira<sup id="a1">[1](#f1)</sup>
 
