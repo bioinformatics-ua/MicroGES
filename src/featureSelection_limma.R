@@ -35,7 +35,7 @@ for (name_gse in gse_names) {
   design.matrix<-model.matrix(~0+tipo+platform)
   
   # define a contrast matrix
-  contrast.matrix<-makeContrasts(Diff=tipoZ-tipoD,levels = design.matrix)
+  contrast.matrix<-makeContrasts(Diff=tipoD-tipoZ,levels = design.matrix)
   
   # fit the linear model
   fit1<-lmFit(df,design.matrix)
