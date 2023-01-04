@@ -4,6 +4,13 @@
 
 <p align="center"><b>A solution to identify a gene expression signature in microarray datasets</b></p>
 
+### Installation
+
+Automatic installation with [Conda](https://conda.io/miniconda)
+
+```
+conda install -c ieeta micro_ges --yes
+```
 
 ### Documentation
 
